@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//workspaces/Claude Bootstrap/**)",
+      "Bash(tree:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(cd:*)"
+    ],
+    "additionalDirectories": [
+      "/workspaces/Claude Bootstrap/Bootstrap/.claude",
+      "/workspaces/Claude Bootstrap/.claude/csharp",
+      "/workspaces/Claude Bootstrap/.claude/guidelines"
+    ]
+  }
+}
